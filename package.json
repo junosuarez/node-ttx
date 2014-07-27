@@ -3,7 +3,9 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "easy console keyboard commands",
-  "keywords": ["tty"],
+  "keywords": [
+    "tty"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -13,5 +15,8 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "mochi": "0.1.0"
+  },
+  "dependencies": {
+    "keypress": "^0.2.1"
   }
 }
